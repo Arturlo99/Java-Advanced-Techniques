@@ -1,0 +1,5 @@
+lab01:
+	Co udało się zrobić?
+
+	Propozyja oceny:
+	Ocena TK:
