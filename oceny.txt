@@ -1,5 +1,11 @@
 lab01:
-	Co udało się zrobić?
+	Napisano aplikację umożliwiającą sprawdzenie wskazanych katalogów pod kątem wystąpienia
+	zmian w zawartych w nich plikach. Aplikacja działa wyliczając skrót MD5 dla każdego pliku znajdującego się 
+	w wskazanym folderze. Na podstawie wyliczonego skrótu można sprawdzić zmiany plików w stosunku
+	do poprzednio wykonanego snapshota. Aplikację napisano z wykorzystaniem modułów (moduł aplikacji oraz moduł biblioteki).
+	Przygotowano minimalne środowisko uruchomieniowe (używając jlink), do którego podięto przygotowane moduły oraz moduły JavyFX.
+	Aplikacja oferuje interfejs graficzny wykonany przy użyciu JavaFX. Do operacji na plikach i katalogach wykorzystano pakiet
+	klas java.nio. Program można uruchomić z linii komend oraz został napisany w stylu funkcjonalnym. Dodano także security managera.
 
-	Propozyja oceny:
+	Propozyja oceny: 5
 	Ocena TK:
