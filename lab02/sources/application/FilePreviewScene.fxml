@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="830.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FilePreviewController">
+   <center>
+      <AnchorPane prefHeight="409.0" prefWidth="638.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="dirChooserBtn" layoutX="117.0" layoutY="84.0" mnemonicParsing="false" onAction="#dirChooserBtnAction" prefHeight="43.0" prefWidth="109.0" text="Choose directory" />
+            <ImageView fx:id="imageView" fitHeight="546.0" fitWidth="466.0" layoutX="350.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+            <ListView fx:id="filesListView" layoutX="15.0" layoutY="136.0" onMousePressed="#selectItem" prefHeight="337.0" prefWidth="312.0" />
+            <TextArea fx:id="textArea" editable="false" layoutX="350.0" layoutY="37.0" prefHeight="547.0" prefWidth="466.0" visible="false" />
+            <Label alignment="CENTER" layoutX="527.0" layoutY="14.0" prefHeight="24.0" prefWidth="113.0" text="Preview">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="notificationTxtField" editable="false" layoutX="15.0" layoutY="482.0" prefHeight="25.0" prefWidth="313.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

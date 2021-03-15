@@ -1,0 +1,1 @@
+Porównując działanie aplikacji przy użyciu różnych parametrów w większości przypadkach nie odczułem różnicy w sposobie działania programu. Jednak wydawało mi się, że używając `-XX:+UseParallelGC` Garbage Collector szybciej usuwał z pamięci obiekty, do których nie było referencji.

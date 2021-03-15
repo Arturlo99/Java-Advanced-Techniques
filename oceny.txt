@@ -9,3 +9,12 @@ lab01:
 
 	Propozyja oceny: 5
 	Ocena TK:
+
+lab02:
+	Napisano aplikację, która umożliwia podglądanie zawartości plików podczas przeglądania struktury katalogów.
+	Interferjs graficzny składa się z przycisku do wyboru katalogu, listy plików oraz pola na którym pojawia się podgląd plików *.txt lub *.png.
+	Aplikacja wyświetla informację w polu tekstowym o tym, czy zawartość pliku została ponownie załadowana, czy też została pobrana z pamięci.
+	Sprawdzono poprawność działania aplikacji przekazując maszynie wirtualnej parametry ograniczające przydzielaną jej pamięć oraz regulujące pracę algorytmu odśmiecania.
+	
+	Propozyja oceny: 4.5
+	Ocena TK:
