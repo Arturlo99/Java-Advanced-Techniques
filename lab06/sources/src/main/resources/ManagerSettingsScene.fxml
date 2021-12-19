@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="143.0" prefWidth="408.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.controllers.ManagerSettingsController">
+   <children>
+      <TextField fx:id="manPortTxtField" layoutX="48.0" layoutY="41.0" prefHeight="8.0" prefWidth="89.0" text="2000" />
+      <TextField fx:id="regPortTxtField" layoutX="160.0" layoutY="41.0" prefHeight="8.0" prefWidth="89.0" text="1000" />
+      <TextField fx:id="manNameTxtField" layoutX="272.0" layoutY="41.0" prefHeight="8.0" prefWidth="89.0" text="Manager" />
+      <Label layoutX="158.0" layoutY="23.0" text="RMI Registry port" />
+      <Label layoutX="55.0" layoutY="23.0" text="Manager port" />
+      <Label layoutX="276.0" layoutY="23.0" text="Manager name" />
+      <Button fx:id="submitSettingsBtn" layoutX="178.0" layoutY="86.0" mnemonicParsing="false" onAction="#submitSettingsHandler" text="Submit" />
+   </children>
+</Pane>

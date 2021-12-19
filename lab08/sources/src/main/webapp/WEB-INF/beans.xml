@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:jaxws="http://cxf.apache.org/jaxws"
+        xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
+
+        <import resource="classpath:META-INF/cxf/cxf.xml" />
+          
+        <jaxws:endpoint
+        id="client"
+        implementor="com.example.soap.impl.ClientServiceImpl"
+        address="/client" />
+        
+        <jaxws:endpoint
+        id="installation"
+        implementor="com.example.soap.impl.InstallationServiceImpl"
+        address="/installation" />
+        
+        <jaxws:endpoint
+        id="charges"
+        implementor="com.example.soap.impl.AccruedReceivableServiceImpl"
+        address="/charges" />
+        
+        <jaxws:endpoint
+        id="pricelist"
+        implementor="com.example.soap.impl.PriceListServiceImpl"
+        address="/pricelist" />
+        
+        <jaxws:endpoint
+        id="payment"
+        implementor="com.example.soap.impl.PaymentServiceImpl"
+        address="/payment" />
+        
+</beans>

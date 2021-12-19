@@ -1,0 +1,46 @@
+.root {
+		-fx-padding: 10;
+		-fx-border-style: solid inside;
+		-fx-border-width: 2;
+		-fx-border-insets: 5;
+		-fx-border-radius: 5;
+		-fx-border-color: #0ac2cf;
+		-fx-background-color: #2968b1;
+}
+.label {
+    -fx-text-fill: white;
+}
+.text-area .content, .text-area{
+    -fx-background-color:#5d9ac2;
+    -fx-text-fill: white;
+}
+.text-field,  .text-field .content{
+    -fx-background-color:#5d9ac2;
+    -fx-text-fill: white;
+}
+.list-view, .list-view .content, .list-cell {
+    -fx-background-color:#5d9ac2;
+    -fx-text-fill: white;
+}
+.list-view .list-cell:filled:selected:focused, .list-view .list-cell:filled:selected {
+    -fx-background-color: #c2e7ff;
+    -fx-text-fill: #083374;
+}
+.list-view .list-cell:filled:hover {
+    -fx-background-color: #c2e7ff;
+    -fx-text-fill: #083374;
+}
+.list-view .list-cell:even {
+    -fx-background-color: #7ca7c4 ;
+}
+.button:hover {
+    -fx-background-color: #47a8b9;
+}
+.button:pressed, .button:default:hover:pressed {
+  -fx-background-color: white;
+  -fx-text-fill: #1d1d1d;
+}
+.button {
+    -fx-background-color: #5d9ac2;
+    -fx-text-fill: #ffffff;
+}

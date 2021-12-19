@@ -1,0 +1,9 @@
+grant {
+    permission java.lang.RuntimePermission "accessClassInPackage.jdk.internal.reflect";
+    permission java.net.SocketPermission "*:1000-", "connect";
+    permission java.net.SocketPermission "*:1000-", "resolve";
+    permission java.net.SocketPermission "*:1000-", "accept";
+    permission java.net.SocketPermission "*:1000-", "listen";
+    permission java.util.PropertyPermission "*", "read, write";
+
+};

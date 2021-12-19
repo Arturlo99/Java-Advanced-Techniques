@@ -1,0 +1,18 @@
+keystore "file:/C:/Program Files/Java/jdk-11.0.10/bin/asoltyskeys.jks", "JKS", "SUN";
+
+keystorePasswordURL "file:/E:/keystore.pass";
+
+grant signedBy "asoltys", codeBase
+"file:/C:/Program Files/Java/jdk-11.0.10/bin/signedLib.jar" {
+    permission java.net.SocketPermission "*:100-", "connect, resolve, accept, listen";
+    permission java.util.PropertyPermission "*", "read";
+};
+grant codeBase "file:/E:/Studia/6 semestr/JAVA_L-workspace/LAB_09_JAVA_1/out/-"{
+    permission java.io.FilePermission "<<ALL FILES>>", "read, write, delete, execute";
+    permission java.net.SocketPermission "*:100-", "connect, resolve, accept, listen";
+};
+
+grant codeBase "file:/E:/javafx/javafx-sdk-15.0.1/-" {
+   permission java.security.AllPermission;
+   permission java.io.FilePermission "<<ALL FILES>>", "read, write, delete, execute";
+};
